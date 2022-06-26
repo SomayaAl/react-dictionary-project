@@ -15,9 +15,9 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+    <div className="form-section">
+        <h3>What word would you like to look up?</h3>
       <form onSubmit={search}>
-        <div className="row">
-          <div className="col-5">
             <input
               className="form-control"
               type="search"
@@ -26,13 +26,8 @@ export default function Dictionary() {
               autoComplete="off"
               onChange={handleWordChange}
             />
-          </div>
-          <div className="col-4">
-            {" "}
-            <input className="btn btn-primary" type="submit" text="Search" />
-          </div>
-        </div>
       </form>
+      </div>
     </div>
   );
 }
