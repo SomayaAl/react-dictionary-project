@@ -41,7 +41,7 @@ export default function Dictionary(props) {
           <input
             className="form-control"
             type="search"
-            placeholder="Enter a word"
+            defaultValue={props.defaultWord}
             autoFocus="on"
             autoComplete="off"
             onChange={handleWordChange}
