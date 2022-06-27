@@ -14,14 +14,14 @@
 }
 
 .form-section {
-  border: solid;
+  border: solid rgb(134, 117, 106);;
   border-radius: 10px;
   margin: 30px auto;
   padding: 70px;
 }
 
 h3 {
-  color: rgb(134, 117, 106);
+  opacity: .7;
 }
 
 form {
