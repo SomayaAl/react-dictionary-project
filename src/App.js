@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={banner} className="App-banner img-fluid" alt="banner" />
       </header>
-      <Dictionary />
+      <Dictionary defaultWord="star"/>
       <footer>
         This project was coded by Somaya Albadawi and is{" "}
         <a
