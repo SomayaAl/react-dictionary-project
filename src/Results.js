@@ -1,5 +1,6 @@
 import React from "react";
 import Meanings from "./Meanings.js";
+import Phonetics from "./Phonetics.js";
 
 export default function Results(props) {
   if (props.results) {
@@ -8,6 +9,13 @@ export default function Results(props) {
         <div className="word-section">
           <div className="Results">
             <h2>{props.results.word}</h2>
+            {props.results.phonetics.map(function (phonetic, index) {
+              return (
+                <div key={index}>
+                  <Phonetics phonetic={phonetic} />
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="meanings-section">

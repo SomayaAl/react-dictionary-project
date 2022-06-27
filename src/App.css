@@ -14,14 +14,14 @@
 }
 
 .form-section {
-  border: solid rgb(134, 117, 106);;
+  border: solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 60px;
 }
 
 h3 {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 form {
@@ -29,21 +29,20 @@ form {
 }
 
 .word-section {
-  border: solid rgb(134, 117, 106);;
+  border: solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 60px;
 }
 
 .meanings-section {
-  border: solid rgb(134, 117, 106);;
+  border: solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 60px;
 }
 
-
 footer {
   text-align: center;
-  opacity: .7;
+  opacity: 0.7;
 }
