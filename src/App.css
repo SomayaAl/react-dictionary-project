@@ -1,11 +1,12 @@
 .App {
-  margin: 30px 200px;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .App-banner {
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin-top: 30px;
   border-radius: 10px;
 }
 
@@ -14,7 +15,7 @@
 }
 
 .form-section {
-  border: solid rgb(134, 117, 106);
+  border: 1px solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 60px;
@@ -33,7 +34,7 @@ form {
 }
 
 .word-section {
-  border: solid rgb(134, 117, 106);
+  border: 1px solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 30px 60px;
@@ -54,6 +55,11 @@ form {
   transition: all 150ms ease-in-out;
 }
 
+.Phonetic a:hover {
+  background: rgb(134, 117, 106);
+  color: white;
+}
+
 .speech-part {
   margin-bottom: 20px;
   font-style: bold;
@@ -61,7 +67,7 @@ form {
 }
 
 .Meanings {
-  border: solid rgb(134, 117, 106);
+  border: 1px solid rgb(134, 117, 106);
   border-radius: 10px;
   margin: 30px auto;
   padding: 60px;
@@ -82,7 +88,7 @@ form {
 }
 
 .Photos {
-  border: solid rgb(134, 117, 106);
+  border: 1px solid rgb(134, 117, 106);
   border-radius: 10px;
   padding: 30px;
 }
@@ -95,4 +101,67 @@ form {
 footer {
   text-align: center;
   opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 920px) {
+   .App {
+     margin: 20px;
+   }
+
+   footer {
+     font-size: 12px;
+   }
+
+  .form-section {
+  border: 1px solid rgb(134, 117, 106);
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 20px;
+  }
+
+  h2 {
+  margin-bottom: 30px;
+  }
+
+  h3 {
+  opacity: 0.7;
+  }
+
+  .word-section {
+  border: 1px solid rgb(134, 117, 106);
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  }
+
+  .speech-part {
+  margin-bottom: 20px;
+  font-style: bold;
+  opacity: 1;
+  }
+
+  .Meanings {
+  border: 1px solid rgb(134, 117, 106);
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px;
+  }
+
+  .examples {
+  opacity: .8;
+  margin-top: 10px;
+  font-style: italic;
+  } 
+  .Photos {
+  border: 1px solid rgb(134, 117, 106);
+  border-radius: 10px;
+  padding: 5px;
+  }
+
+  .Photos img {
+  border-radius: 6px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
 }
