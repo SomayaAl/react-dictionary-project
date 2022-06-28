@@ -8,15 +8,23 @@ function App() {
       <header className="App-header">
         <img src={banner} className="App-banner img-fluid" alt="banner" />
       </header>
-      <Dictionary defaultWord="star"/>
+      <Dictionary defaultWord="star" />
       <footer>
-        This project was coded by Somaya Albadawi and is{" "}
+        This{" "}
         <a
           href="https://github.com/SomayaAl/react-dictionary-project"
           target="_blank"
           rel="noreferrer"
         >
-          open-sourced.
+          open-sourced
+        </a>{" "}
+        project was coded by Somaya Albadawi and is hosted on{" "}
+        <a
+          href="https://main--storied-gaufre-6edb7d.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Netlify.
         </a>
       </footer>
     </div>
